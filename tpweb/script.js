@@ -40,10 +40,14 @@ placeholder_email.innerHTML = valor_email;
 //modo sigilo feedback
 elemento_feedback = document.getElementById("feedback");
 elemento_feedback.classList.remove("oculto");
+
+
+//oculta el form
+
+elemento_formulario = document.getElementById("formulario");
+elemento_formulario.classList.add("oculto");
+
 }
-
-
-
 //NO BORRAR, CARRUSEL
  document.addEventListener( 'DOMContentLoaded', function() {
     var splide = new Splide( '.splide' );
